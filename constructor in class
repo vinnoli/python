@@ -1,0 +1,15 @@
+class student:
+ name=""
+ mark=0
+ def __init__(self,a,b):
+  self.name=a
+  self.name=b
+  print("constructor called")
+ def inputdata(self):
+  self.name=input("enter name:"))
+  self.mark=eval(input("enter mark:"))
+ def display(self):
+  print("stud name:",self.name)
+  print("stud mark:",self.mark)
+stud=student("sam",90)
+stud.display()
