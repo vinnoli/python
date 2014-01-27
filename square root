@@ -1,0 +1,3 @@
+import math
+a=eval(input("enter no"))
+print("square root is",math.sqrt(a))
