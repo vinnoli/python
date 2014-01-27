@@ -1,0 +1,11 @@
+import mysql.connector
+cn=mysql.connector.connect(user='root',database='employee',password='root')
+cr=cn.cursor()
+cr.execute("insert into salary(name,dept,position,eid)values('{0}','{1}','{2}',{3})".format('big','civil','professor',775))
+cn.commit()
+print("record inserted")
+cr.execute("select * from salary")
+for(name,dept,position,eid) in cr:
+ print("{0:<5}|{1:^20}|{2:<5}|{3:>10}|".format(name,dept,position,eid))
+cr.close()
+cn.close()
