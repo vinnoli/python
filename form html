@@ -1,0 +1,9 @@
+#!/python33/python
+print("content-type:text/html")
+print("")
+print("<html><head>")
+print("")
+print("</head><body>")
+print("I like nature")
+print("<br>welcome")
+print("</body></html>")
