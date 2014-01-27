@@ -1,0 +1,4 @@
+list=["a","s"]
+list.append("do")
+for i in list:
+ print(i)
