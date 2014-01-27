@@ -1,0 +1,10 @@
+try:
+ c=2/0
+ except(zeroDivisionError):
+  print("Divided by zero")
+  except(Type Error):
+   print("Type Error")
+    else:
+     print("No Error")
+      Finally:
+     print("pgm executed")
