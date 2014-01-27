@@ -1,0 +1,7 @@
+python
+==========
+
+program
+a=input("Enter 1st string")
+b=input("Enter 2nd string")
+print(a*b)
