@@ -1,0 +1,5 @@
+import math
+a=eval(input("enter the 1st no"))
+b=eval(input("enter the 2nd no"))
+print("minimum no is:",min(a,b))
+print("maximum no is:",max(a,b))
